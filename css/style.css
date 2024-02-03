@@ -5,27 +5,29 @@ body{
 }
 
 h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 56px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
     color: #504b47;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     border-left: #FBD799 solid 3px;
     padding-left: 5px;
+    text-transform: uppercase;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #504b47;
     font-size: 24px;
     font-weight: 500;
 }
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #504b47;
     font-size: 16px;
 }
@@ -37,22 +39,40 @@ p{
     color: #fff;
 }
 .bouton-2{
+    text-decoration: none;
     color: #504b47;
-    text-decoration: underline #F0122D;
     display: flex;
     justify-content: end;
+    font-weight: 600;
+}
+.bouton-2 span{
+    color: #F0122D;
+}
+.anav{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+nav a:hover{
+    color: #F0122D;
 }
 
 
-nav{
-    height: 70px;
-}
+
+
+
+
+
+
+
+
 
 .hero{
-    background-image: url(../img/accueil/hero-dark.jpg);
+    background-image: url(../img/accueil/hero.webp);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    padding: 160px 0;
+    box-shadow: 0px 5px 10px 5px #504B47;
 }
 .title{
     font-size: 22px;
@@ -109,9 +129,11 @@ nav{
 
 
 .hero-2{
-    background-color: #504b47;
+    background-image: url(../img/accueil/hero-img.png);
     background-size: cover;
     background-position: center;
+    padding: 150px 0;
+    box-shadow: 0px 5px 10px 5px #504B47;
 }
 
 
@@ -120,4 +142,6 @@ nav{
 
 footer{
     background-color: #FDF8F0;
+    padding: 40px 0;
+    box-shadow: 0px -3px 15px 1px #FBD799;
 }
