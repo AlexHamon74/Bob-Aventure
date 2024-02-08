@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
 
-body{
-    background-color: #fff;
-}
 
+/* STYLE DES TITRES ET PARAGRAPHES*/
 h1{
     font-family: 'Roboto', sans-serif;
     color:antiquewhite;
@@ -29,23 +27,9 @@ p{
     color: #504b47;
     font-size: 16px;
 }
-.bouton-1{
-    background-color: #504b47;
-    padding: 12px 25px;
-    border-radius: 50px;
-    text-decoration: none;
-    color: #fff;
-}
-.bouton-2{
-    text-decoration: none;
-    color: #504b47;
-    display: flex;
-    justify-content: end;
-    font-weight: 600;
-}
-.bouton-2 span{
-    color: #F0122D;
-}
+
+
+/* STYLE DES LIENS DE LA NAVBAR */
 .anav{
     text-transform: uppercase;
     font-weight: 600;
@@ -56,6 +40,57 @@ nav a:hover{
 }
 
 
+/* STYLE DES BOUTONS */
+.bouton-1{
+    background-color: #504b47;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.bouton-1:hover{
+    background-color: #FBD799;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #504B47;
+    transition: 0.4s;
+}
+.bouton-2{
+    text-decoration: none;
+    color: #504b47;
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+}
+.bouton-2 span{
+    color: #FBD799;
+}
+.bouton-3{
+    background-color: #FDF8F0;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #504B47;
+    font-weight: 600;
+}
+
+
+/* Section Hero identiques à toutes les pages sauf acceuil */
+.hero-2{
+    background-image: url(../img/hero2.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    box-shadow: 0px 5px 10px 5px #504B47;
+}
+
+
+/* Section Footer identique pour toutes les pages */
+footer{
+    margin: 40px 0;
+}
 
 
 
@@ -65,28 +100,33 @@ nav a:hover{
 
 
 
+
+/* STYLE DE LA PAGE D'ACCUEIL */
 .hero{
     background-image: url(../img/accueil/hero.webp);
     background-size: cover;
     background-position: center;
-    padding: 160px 0;
+    padding: 140px 0;
     box-shadow: 0px 5px 10px 5px #504B47;
 }
 .title{
     font-size: 22px;
     font-weight: 600;
     color: #fff;
+    padding: 20px 0;
 }
 .img-pres{
     background-image: url(../img/accueil/presentation.jpg);
     background-size: cover;
     background-position: center;
 }
-.actus{
-    background-color: #FDF8F0;
+.actus-a{
+    background-color: #504B47;
     padding: 50px 0;
 }
-
+.actus-a h2{
+    color:#fff;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -103,42 +143,16 @@ nav a:hover{
 .div7 { grid-area: 3 / 10 / 4 / 13; }
 .div8 { grid-area: 2 / 7 / 3 / 10; }
 
-.bandeau{
+.contact-a{
     background-color: #504b47;
-    margin-bottom: 50px;
-    padding: 50px 0;
-    color: #fff ;
-}
-.bandeau p{
     color: #fff;
 }
-.chiffre{
-    font-size: 50px;
-    font-weight: bold;
-    color: #FBD799;
-}
-.contact{
-    padding: 80px 0;
+.contact-a p, .contact-a h3, .contact-a h2{
+    color: #fff;
 }
 
+/* STYLE DE LA PAGE ASSOCIATION */
 
-
-
-
-
-.hero-2{
-    background-image: url(../img/accueil/hero-img.png);
-    background-size: cover;
-    background-position: center;
-    padding: 150px 0;
-    box-shadow: 0px 5px 10px 5px #504B47;
-}
-
-
-
-
-
-footer{
-    background-color: #FDF8F0;
-    padding: 40px 0;
+.valeurs{
+    background-color: #FBD799;
 }
