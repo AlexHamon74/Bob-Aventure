@@ -103,7 +103,7 @@ footer{
 
 /* STYLE DE LA PAGE D'ACCUEIL */
 .hero{
-    background-image: url(../img/accueil/hero.webp);
+    background-color: navy;
     background-size: cover;
     background-position: center;
     padding: 140px 0;
@@ -121,7 +121,10 @@ footer{
     background-position: center;
 }
 .actus-a{
-    background-color: #504B47;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/hero.jpg);
+    background-position: center;
     padding: 50px 0;
 }
 .actus-a h2{
