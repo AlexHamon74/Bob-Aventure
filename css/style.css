@@ -103,10 +103,10 @@ footer{
 
 /* STYLE DE LA PAGE D'ACCUEIL */
 .hero{
-    background-color: navy;
+    background-image: url(../img/hero_bgi.jpg);
     background-size: cover;
     background-position: center;
-    padding: 140px 0;
+    padding: 100px 0;
     box-shadow: 0px 5px 10px 5px #504B47;
 }
 .title{
@@ -115,7 +115,7 @@ footer{
     color: #fff;
     padding: 20px 0;
 }
-.img-pres{
+.img-pres{ 
     background-image: url(../img/accueil/presentation.jpg);
     background-size: cover;
     background-position: center;
@@ -123,13 +123,19 @@ footer{
 .actus-a{
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/actus_bgi.jpg);
     background-position: center;
     padding: 50px 0;
 }
 .actus-a h2{
     color:#fff;
 }
+@media (max-width: 768px){
+    .actus-a{
+        background-image: none;
+        background-color: #504B47;
+    }}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -168,6 +174,16 @@ footer{
     background-size: cover;
     background-position: center;
 }
+
+/* STYLE DE LA PAGE ACTUALITES */
+.agenda a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 
 /* STYLE DE LA PAGE CONTACT */
 .info-contact{
